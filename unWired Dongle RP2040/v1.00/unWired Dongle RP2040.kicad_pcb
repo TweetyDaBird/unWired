@@ -455,7 +455,7 @@
     (property "SnapEDA_Link" "https://www.snapeda.com/parts/2450AT45A100E/Johanson+Technology+Inc./view-part/?ref=snap")
     (path "/9dc25088-4273-4db9-a74f-c4b49257f0b4")
     (attr smd)
-    (fp_text reference "E1" (at -1.905 -1.905) (layer "F.SilkS")
+    (fp_text reference "E1" (at -1.905 -1.905) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b1b2c4b1-bd1d-4151-8fad-6147c17c05cf)
     )
@@ -1019,7 +1019,7 @@
     (property "ki_keywords" "inductor choke coil reactor magnetic")
     (path "/a687a43c-10ad-404e-8975-733bcb17f587")
     (attr smd)
-    (fp_text reference "L2" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "L2" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 87efcee1-f6f0-471d-8f08-5e51f42d4c11)
     )
@@ -1238,7 +1238,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/160d389c-96c9-4a2e-8b37-9a691d86a4a5")
     (attr smd)
-    (fp_text reference "C11" (at 0 -1.16 45) (layer "F.SilkS")
+    (fp_text reference "C11" (at 0 -1.16 45) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b965546e-4808-4536-8bed-727ca25f4f92)
     )
