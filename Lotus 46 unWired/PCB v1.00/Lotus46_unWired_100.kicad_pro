@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 1.7018,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.153,
         "silk_text_italic": false,
@@ -474,7 +474,14 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(BT1-+)": "Power",
+      "Net-(BT1-+)_1": "Power",
+      "Net-(C13-Pad1)": "ANT",
+      "Net-(C13-Pad2)": "ANT",
+      "Net-(C8-Pad1)": "ANT",
+      "Net-(C8-Pad2)": "ANT"
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -507,6 +514,14 @@
       {
         "netclass": "ANT",
         "pattern": "/ANT2"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Left Matrix/3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Right Matrix/3V3"
       }
     ]
   },
@@ -569,6 +584,18 @@
     [
       "033c564d-3d11-4dc7-8633-0c6732489a73",
       ""
+    ],
+    [
+      "7a05c2ff-b4e9-4a74-a3e4-8c19c316f68c",
+      "Left Matrix"
+    ],
+    [
+      "17d71cf2-6604-40d1-9969-26f0a47c3a74",
+      "Right Matrix"
+    ],
+    [
+      "d8300bbd-eec3-443b-bdce-69e5d6a237da",
+      "Dongle"
     ]
   ],
   "text_variables": {}

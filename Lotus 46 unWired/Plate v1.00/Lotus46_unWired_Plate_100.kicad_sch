@@ -1,0 +1,40 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 033c564d-3d11-4dc7-8633-0c6732489a73)
+
+  (paper "A4")
+
+  (title_block
+    (title "Lotus 46 unWired")
+    (date "2023-08-20")
+    (rev "v1.00")
+    (company "Markus Knutsson <markus.knutsson@tweety.se>")
+    (comment 1 "https://github.com/TweetyDaBird")
+    (comment 2 "Licensed under Creative Commons BY-SA 4.0 International ")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 95.25 49.53) (size 46.99 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 17d71cf2-6604-40d1-9969-26f0a47c3a74)
+    (property "Sheetname" "Right Matrix" (at 95.25 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "right.kicad_sch" (at 95.25 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lotus46_unWired_Plate_100"
+        (path "/033c564d-3d11-4dc7-8633-0c6732489a73" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
